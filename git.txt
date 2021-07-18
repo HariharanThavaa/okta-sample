@@ -1,0 +1,9 @@
+echo "# okta-sample" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/HariharanThavaa/okta-sample.git
+git push -u origin main
+
+Ref : https://developer.okta.com/blog/2019/03/12/oauth2-spring-security-guide
